@@ -2,7 +2,7 @@
 \usepackage[T1]{fontenc}
 
 \usepackage{fontawesome}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \setlength{\parindent}{0cm}
 \usepackage{paracol}
 \usepackage{ifthen}
@@ -13,6 +13,7 @@
 \usepackage{float}
 
 \usepackage{array}
+\usepackage{vcell}
 %\setlength\extrarowheight{1.5em} % adds some spacing between the lines of the CV's tabulars
 % not used here as not to interfer with other tables
 \usetikzlibrary{decorations.text}
@@ -45,9 +46,10 @@
 \usepackage{titlesec} % Allows creating custom \sections
 
 % Format of the section titles
-\titleformat{\section}{
-\scshape\Large\raggedright}{}{0em}{}[\titlerule] % smallcaps, Large, continuous line - looks better if two columns, might look a bit too dramatic if just one ;) 
-\titlespacing{\section}{0pt}{12pt}{5pt} % Spacing around titles {<left spacing>}{<before spacing>}{<after spacing>}
+\titleformat{\section}{\color{Blue}\Large\raggedright}{}{0em}
+	    {}[\color{spacergrey}\titlerule] 
+% smallcaps, Large, continuous line - looks better if two columns, might look a bit too dramatic if just one ;) 
+\titlespacing{\section}{0pt}{5pt}{5pt} % Spacing around titles {<left spacing>}{<before spacing>}{<after spacing>}
 %----------------------------------------------------
 
  \newcommand{\cvkeyword}[3]{

@@ -5,6 +5,8 @@
 \LoadClass[]{article}
 \RequirePackage{xcolor}
 
+\definecolor{Blue}{HTML}{1145A8}
+\definecolor{spacergrey}{HTML}{D1D1D1}
 \definecolor{headercolour}{rgb}{0.25,0.25,0.25}
 %-------------------------------------------------------
 \definecolor{materialpurple}{HTML}{9C27B0}

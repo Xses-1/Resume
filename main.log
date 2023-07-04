@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.27)  4 JUL 2023 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.27)  4 JUL 2023 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -632,28 +632,37 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \backup@length=\skip54
 \ar@cellbox=\box76
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/vcell/vcell.sty
+Package: vcell 2021/04/30 v1.0.2
+\rowheight=\dimen261
+\rowht=\dimen262
+\rowdp=\dimen263
+\@cellcount=\count306
+\@cellusecount=\count307
+\@celltemp=\box77
+)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.text.code.tex
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen261
-\pgfdecoratedremainingdistance=\dimen262
-\pgfdecoratedinputsegmentcompleteddistance=\dimen263
-\pgfdecoratedinputsegmentremainingdistance=\dimen264
-\pgf@decorate@distancetomove=\dimen265
-\pgf@decorate@repeatstate=\count306
-\pgfdecorationsegmentamplitude=\dimen266
-\pgfdecorationsegmentlength=\dimen267
+\pgfdecoratedcompleteddistance=\dimen264
+\pgfdecoratedremainingdistance=\dimen265
+\pgfdecoratedinputsegmentcompleteddistance=\dimen266
+\pgfdecoratedinputsegmentremainingdistance=\dimen267
+\pgf@decorate@distancetomove=\dimen268
+\pgf@decorate@repeatstate=\count308
+\pgfdecorationsegmentamplitude=\dimen269
+\pgfdecorationsegmentlength=\dimen270
 )
-\tikz@lib@dec@box=\box77
+\tikz@lib@dec@box=\box78
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.text.code.tex
-\pgf@lib@dec@text@box=\box78
+\pgf@lib@dec@text@box=\box79
 )
-\tikz@lib@dec@te@box=\box79
+\tikz@lib@dec@te@box=\box80
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryshapes.misc.code.tex
@@ -670,10 +679,10 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen268
-\pgfarrowlength=\dimen269
-\pgfarrowwidth=\dimen270
-\pgfarrowlinewidth=\dimen271
+\pgfarrowinset=\dimen271
+\pgfarrowlength=\dimen272
+\pgfarrowwidth=\dimen273
+\pgfarrowlinewidth=\dimen274
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryshadings.code.tex
@@ -691,17 +700,17 @@ File: tikzlibrarycalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
 tex
 File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfcalendarcurrentjulian=\count307
-\pgf@cal@easter@Y=\count308
-\pgf@cal@easter@G=\count309
-\pgf@cal@easter@C=\count310
-\pgf@cal@easter@X=\count311
-\pgf@cal@easter@Z=\count312
-\pgf@cal@easter@D=\count313
-\pgf@cal@easter@E=\count314
-\pgf@cal@easter@N=\count315
-\pgf@cal@easter@M=\count316
-\pgf@cal@easter@julianday=\count317
+\pgfcalendarcurrentjulian=\count309
+\pgf@cal@easter@Y=\count310
+\pgf@cal@easter@G=\count311
+\pgf@cal@easter@C=\count312
+\pgf@cal@easter@X=\count313
+\pgf@cal@easter@Z=\count314
+\pgf@cal@easter@D=\count315
+\pgf@cal@easter@E=\count316
+\pgf@cal@easter@N=\count317
+\pgf@cal@easter@M=\count318
+\pgf@cal@easter@julianday=\count319
 )))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryer.code.tex
@@ -738,38 +747,38 @@ File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
 shapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box80
-\pgfnodeparttwobox=\box81
-\pgfnodepartthreebox=\box82
-\pgfnodepartfourbox=\box83
-\pgfnodeparttwentybox=\box84
-\pgfnodepartnineteenbox=\box85
-\pgfnodeparteighteenbox=\box86
-\pgfnodepartseventeenbox=\box87
-\pgfnodepartsixteenbox=\box88
-\pgfnodepartfifteenbox=\box89
-\pgfnodepartfourteenbox=\box90
-\pgfnodepartthirteenbox=\box91
-\pgfnodeparttwelvebox=\box92
-\pgfnodepartelevenbox=\box93
-\pgfnodeparttenbox=\box94
-\pgfnodepartninebox=\box95
-\pgfnodeparteightbox=\box96
-\pgfnodepartsevenbox=\box97
-\pgfnodepartsixbox=\box98
-\pgfnodepartfivebox=\box99
+\pgfnodepartlowerbox=\box81
+\pgfnodeparttwobox=\box82
+\pgfnodepartthreebox=\box83
+\pgfnodepartfourbox=\box84
+\pgfnodeparttwentybox=\box85
+\pgfnodepartnineteenbox=\box86
+\pgfnodeparteighteenbox=\box87
+\pgfnodepartseventeenbox=\box88
+\pgfnodepartsixteenbox=\box89
+\pgfnodepartfifteenbox=\box90
+\pgfnodepartfourteenbox=\box91
+\pgfnodepartthirteenbox=\box92
+\pgfnodeparttwelvebox=\box93
+\pgfnodepartelevenbox=\box94
+\pgfnodeparttenbox=\box95
+\pgfnodepartninebox=\box96
+\pgfnodeparteightbox=\box97
+\pgfnodepartsevenbox=\box98
+\pgfnodepartsixbox=\box99
+\pgfnodepartfivebox=\box100
 )))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box100
+\ttl@box=\box101
 \beforetitleunit=\skip55
 \aftertitleunit=\skip56
-\ttl@plus=\dimen272
-\ttl@minus=\dimen273
+\ttl@plus=\dimen275
+\ttl@minus=\dimen276
 \ttl@toksa=\toks34
-\titlewidth=\dimen274
-\titlewidthlast=\dimen275
-\titlewidthfirst=\dimen276
+\titlewidth=\dimen277
+\titlewidthlast=\dimen278
+\titlewidthfirst=\dimen279
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
@@ -787,7 +796,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks37
 \XKV@tempa@toks=\toks38
 )
-\XKV@depth=\count318
+\XKV@depth=\count320
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
@@ -932,72 +941,72 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count319
-\Gm@cntv=\count320
-\c@Gm@tempcnt=\count321
-\Gm@bindingoffset=\dimen277
-\Gm@wd@mp=\dimen278
-\Gm@odd@mp=\dimen279
-\Gm@even@mp=\dimen280
-\Gm@layoutwidth=\dimen281
-\Gm@layoutheight=\dimen282
-\Gm@layouthoffset=\dimen283
-\Gm@layoutvoffset=\dimen284
+\Gm@cnth=\count321
+\Gm@cntv=\count322
+\c@Gm@tempcnt=\count323
+\Gm@bindingoffset=\dimen280
+\Gm@wd@mp=\dimen281
+\Gm@odd@mp=\dimen282
+\Gm@even@mp=\dimen283
+\Gm@layoutwidth=\dimen284
+\Gm@layoutheight=\dimen285
+\Gm@layouthoffset=\dimen286
+\Gm@layoutvoffset=\dimen287
 \Gm@dimlist=\toks39
 )
 \rightcolwidth=\skip57
 \leftcolwidth=\skip58
 LaTeX Font Info:    Trying to load font information for T1+Raleway-TLF on input
- line 22.
+ line 17.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
 File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TL
 F.
 )
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 22.
+(Font)              scaled to size 10.0pt on input line 17.
 
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 22.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 2
-2.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 1
+7.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    ... okay on input line 17.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
-\scratchdimen=\dimen285
-\scratchbox=\box101
-\nofMPsegments=\count323
-\nofMParguments=\count324
+\scratchcounter=\count324
+\scratchdimen=\dimen288
+\scratchbox=\box102
+\nofMPsegments=\count325
+\nofMParguments=\count326
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count325
-\MPscratchDim=\dimen286
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen289
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
 \everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1008,7 +1017,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 17.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1049,129 +1058,204 @@ Package hyperref Info: Link coloring OFF on input line 22.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<figures/top.png, id=34, 1181.16281pt x 522.45187pt>
+File: figures/top.png Graphic file (type png)
+<use figures/top.png>
+Package pdftex.def Info: figures/top.png  used on input line 38.
+(pdftex.def)             Requested size: 205.5392pt x 90.91226pt.
+
+Overfull \hbox (7.80606pt too wide) in paragraph at lines 38--39
+ [] 
+ []
+
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 29.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 29.
+(Font)              scaled to size 8.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 43.
+(Font)              scaled to size 14.4pt on input line 48.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 49.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 47.
+(Font)              scaled to size 8.0pt on input line 51.
+<figures/Identity.png, id=36, 56.46094pt x 56.46094pt>
+File: figures/Identity.png Graphic file (type png)
+<use figures/Identity.png>
+Package pdftex.def Info: figures/Identity.png  used on input line 51.
+(pdftex.def)             Requested size: 19.34787pt x 19.34808pt.
+\@cellbox1=\box103
+\@cellbox2=\box104
+<figures/Mail.png, id=37, 56.46094pt x 56.46094pt>
+File: figures/Mail.png Graphic file (type png)
+<use figures/Mail.png>
+Package pdftex.def Info: figures/Mail.png  used on input line 55.
+(pdftex.def)             Requested size: 19.34787pt x 19.34808pt.
+\@cellbox1=\box105
+
+Overfull \hbox (9.04155pt too wide) in paragraph at lines 56--56
+[]|\T1/Raleway-TLF/m/n/8 wiktor.tomanek.5@gmail.com 
+ []
+
+\@cellbox2=\box106
+<figures/Phone.png, id=38, 56.46094pt x 56.46094pt>
+File: figures/Phone.png Graphic file (type png)
+<use figures/Phone.png>
+Package pdftex.def Info: figures/Phone.png  used on input line 59.
+(pdftex.def)             Requested size: 19.34787pt x 19.34808pt.
+\@cellbox1=\box107
+\@cellbox2=\box108
+<figures/Address.png, id=39, 56.46094pt x 56.46094pt>
+File: figures/Address.png Graphic file (type png)
+<use figures/Address.png>
+Package pdftex.def Info: figures/Address.png  used on input line 63.
+(pdftex.def)             Requested size: 19.34787pt x 19.34808pt.
+\@cellbox1=\box109
+\@cellbox2=\box110
+<figures/License.png, id=40, 56.46094pt x 56.46094pt>
+File: figures/License.png Graphic file (type png)
+<use figures/License.png>
+Package pdftex.def Info: figures/License.png  used on input line 67.
+(pdftex.def)             Requested size: 19.34787pt x 19.34808pt.
+\@cellbox1=\box111
+\@cellbox2=\box112
+<figures/Web.png, id=41, 56.46094pt x 56.46094pt>
+File: figures/Web.png Graphic file (type png)
+<use figures/Web.png>
+Package pdftex.def Info: figures/Web.png  used on input line 71.
+(pdftex.def)             Requested size: 19.34787pt x 19.34808pt.
+\@cellbox1=\box113
+\@cellbox2=\box114
+<figures/LinkIN.png, id=43, 56.46094pt x 56.46094pt>
+File: figures/LinkIN.png Graphic file (type png)
+<use figures/LinkIN.png>
+Package pdftex.def Info: figures/LinkIN.png  used on input line 75.
+(pdftex.def)             Requested size: 19.34787pt x 19.34808pt.
+\@cellbox1=\box115
+
+Overfull \hbox (3.19359pt too wide) in paragraph at lines 76--76
+[]|[]\T1/Raleway-TLF/m/n/8 linkedin.com/in/wtomanek[] 
+ []
+
+\@cellbox2=\box116
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 88.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
 LaTeX Font Info:    Trying to load font information for TS1+Raleway-TLF on inpu
-t line 64.
+t line 98.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/raleway/TS1Raleway-TLF.fd
 File: TS1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for TS1/Raleway-
 TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 64.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
-9.
+(Font)              scaled to size 8.0pt on input line 98.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+13.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 87.
+ut line 121.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomeone/b/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 87.
+(Font)              using `U/fontawesomeone/m/n' instead on input line 121.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
-nput line 88.
+nput line 122.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomethree/b/n' undefined
-(Font)              using `U/fontawesomethree/m/n' instead on input line 88.
+(Font)              using `U/fontawesomethree/m/n' instead on input line 122.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 89.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 89.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 123.
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 99.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 100.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 100.
+(Font)              scaled to size 9.0pt on input line 133.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 102.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 102.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 102.
+(Font)              <9> on input line 136.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 103.
-<disney.png, id=34, 225.84375pt x 225.84375pt>
+(Font)              scaled to size 9.0pt on input line 137.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 137.
+<disney.png, id=45, 225.84375pt x 225.84375pt>
 File: disney.png Graphic file (type png)
 <use disney.png>
-Package pdftex.def Info: disney.png  used on input line 103.
+Package pdftex.def Info: disney.png  used on input line 137.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
-<medal.jpeg, id=35, 225.84375pt x 225.84375pt>
+<medal.jpeg, id=46, 225.84375pt x 225.84375pt>
 File: medal.jpeg Graphic file (type jpg)
 <use medal.jpeg>
-Package pdftex.def Info: medal.jpeg  used on input line 104.
-(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 111.
-File: disney.png Graphic file (type png)
-<use disney.png>
-Package pdftex.def Info: disney.png  used on input line 111.
-(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-File: medal.jpeg Graphic file (type jpg)
-<use medal.jpeg>
-Package pdftex.def Info: medal.jpeg  used on input line 112.
-(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-File: medal.jpeg Graphic file (type jpg)
-<use medal.jpeg>
-Package pdftex.def Info: medal.jpeg  used on input line 113.
-(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 6.0pt on input line 120.
-File: disney.png Graphic file (type png)
-<use disney.png>
-Package pdftex.def Info: disney.png  used on input line 129.
-(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
-File: medal.jpeg Graphic file (type jpg)
-<use medal.jpeg>
-Package pdftex.def Info: medal.jpeg  used on input line 130.
+Package pdftex.def Info: medal.jpeg  used on input line 138.
 (pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Overfull \hbox (25.62764pt too wide) in paragraph at lines 136--141
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 145.
+File: disney.png Graphic file (type png)
+<use disney.png>
+Package pdftex.def Info: disney.png  used on input line 145.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+File: medal.jpeg Graphic file (type jpg)
+<use medal.jpeg>
+Package pdftex.def Info: medal.jpeg  used on input line 146.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+File: medal.jpeg Graphic file (type jpg)
+<use medal.jpeg>
+Package pdftex.def Info: medal.jpeg  used on input line 147.
+(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 6.0pt on input line 154.
+File: disney.png Graphic file (type png)
+<use disney.png>
+Package pdftex.def Info: disney.png  used on input line 163.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+File: medal.jpeg Graphic file (type jpg)
+<use medal.jpeg>
+Package pdftex.def Info: medal.jpeg  used on input line 164.
+(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+
+Overfull \hbox (25.62764pt too wide) in paragraph at lines 162--167
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 []|\T1/Raleway-TLF/m/n/8 Grant from the Pi-rate's
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 146.
+(Font)              scaled to size 5.0pt on input line 180.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 156.
-
-Overfull \hbox (20.91039pt too wide) in paragraph at lines 178--184
-[][] 
- []
-
+(Font)              scaled to size 8.0pt on input line 190.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}{/usr/local/tex
-live/2023/texmf-dist/fonts/enc/dvips/raleway/a_2bcjq6.enc}{/usr/local/texlive/2
-023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/202
-3/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive
-/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/t
-exlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/loc
-al/texlive/2023/texmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc} <./disney.png>
- <./medal.jpeg>] (./main.aux)
+live/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local
+/texlive/2023/texmf-dist/fonts/enc/dvips/raleway/a_2bcjq6.enc}{/usr/local/texli
+ve/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive
+/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/tex
+live/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/loc
+al/texlive/2023/texmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc} <./figures/Top
+.png> <./figures/Identity.png> <./figures/Mail.png> <./figures/Phone.png> <./fi
+gures/Address.png> <./figures/License.png> <./figures/Web.png> <./figures/LinkI
+N.png> <./disney.png> <./medal.jpeg>] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
@@ -1184,13 +1268,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28171 strings out of 475723
- 568237 string characters out of 5781849
- 1895769 words of memory out of 5000000
- 48393 multiletter control sequences out of 15000+600000
- 690942 words of font info for 72 fonts, out of 8000000 for 9000
+ 28270 strings out of 475723
+ 570364 string characters out of 5781849
+ 1913769 words of memory out of 5000000
+ 48484 multiletter control sequences out of 15000+600000
+ 667841 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,13n,135p,437b,886s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,14n,135p,437b,920s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
 e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Raleway
 -Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/impallari/raleway/Ral
@@ -1199,10 +1283,10 @@ ay/Raleway-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-
 super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-su
 per/sftt0900.pfb>
-Output written on main.pdf (1 page, 169563 bytes).
+Output written on main.pdf (1 page, 228156 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

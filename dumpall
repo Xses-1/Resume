@@ -1,0 +1,756 @@
+\documentclass[lighthipster]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=0cm, a4paper]{geometry}
+\usepackage[hidelinks]{hyperref}
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.34\textwidth}
+\setlength{\rightcolwidth}{0.63\textwidth}
+
+%------------------------------------------------------------------
+\title{New Simple CV}
+\author{\LaTeX{} Ninja}
+\date{June 2019}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{plain}
+%-------------------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{5.6mm}
+\columnratio{0.34}[0.63]
+\begin{paracol}{2}
+\hbadness5000
+% \backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 
+% \backgroundcolor{g}[rgb]{0.8,1,1} 
+% \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+\center
+
+	\includegraphics[width=0.35\textwidth]{figures/top.png}
+
+\footnotesize
+{
+\color{black}
+\center
+{\footnotesize}
+
+% Personal details section 'erere
+\begin{minipage}[t]{0.3\textwidth}
+	\color{blue}
+	\section*{Personal Details}
+	\color{black}
+	\begin{tabular}{>{\footnotesize\bfseries}l >{\footnotesize}p{0.55\textwidth} }
+		\includegraphics[width=6.8mm]{figures/Identity.png} & Wiktor Tomanek \\
+		     1710 & wiktor.tomanek.5@gmail.com \\
+		     171 & +48 503 636 910 \\
+		     123 & Zuidstraat 29 \newline 2225 GS Katwijk aan Zee \\
+		     321 & AM B \\
+		     aaa & \href{https://github.com/Xses-1}{https://github.com/Xses-1} \\
+		     aaa & \href{https://www.linkedin.com/in/wtomanek}
+		     		{https://www.linkedin.com/in/wtomanek}
+	\end{tabular}
+\end{minipage}
+
+\bigskip
+
+\bg{cvgreen}{white}{personal} \\[0.5em]
+Jack Sparrow
+
+nationality: English 
+
+1690
+
+\bigskip
+
+\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+
+Privateering ~•~ Bucaneering ~•~ Parler ~•~ Rum
+
+\bigskip
+
+
+
+\bigskip
+
+\bg{cvgreen}{white}{Interests}\\[0.5em]
+
+\lorem
+\bigskip
+
+\bg{cvgreen}{white}{Interests}\\[0.5em]
+
+\texttt{R} ~/~ \texttt{Android} ~/~ \texttt{Linux}
+
+\texttt{R} ~/~ \texttt{Android} ~/~ \texttt{Linux}
+
+\texttt{R} ~/~ \texttt{Android} ~/~ \texttt{Linux}
+
+\vspace{4em}
+
+\infobubble{\faAt}{cvgreen}{white}{jack@sparrow.org}
+\infobubble{\faTwitter}{cvgreen}{white}{@sparrow}
+\infobubble{\faFacebook}{cvgreen}{white}{Jack Sparrow}
+\infobubble{\faGithub}{cvgreen}{white}{sparrow}
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Short Resumé}
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2018--2021}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back.\lorem\lorem\lorem}{disney.png} \\
+    \cvevent{2016--2017}{Captain of the Black Pearl}{Lead}{Tortuga \color{cvred}}{Found a secret treasure, lost the ship. \lorem\lorem}{medal.jpeg}
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Degrees}
+\begin{tabular}{r p{0.6\textwidth} c}
+    \cvdegree{1710}{Captain}{Certified}{Tortuga Uni \color{headerblue}}{}{disney.png} \\
+    \cvdegree{1715}{Bucaneering}{M.A.}{London \color{headerblue}}{}{medal.jpeg} \\
+    \cvdegree{1720}{Bucaneering}{B.A.}{London \color{headerblue}}{}{medal.jpeg}
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Programming}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.4}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.55}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.5}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.25}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.1}{0.5em}{cvpurple} \\
+\end{tabular}
+\end{minipage}
+
+\section*{Curriculum}
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2018--2021}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back. \lorem}{disney.png} \\
+    \cvevent{2019}{Freelance Pirate}{Bucaneering}{Tortuga \color{cvred}}{This and that. The usual, aye?  \lorem}{medal.jpeg} \\
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Certificates \& Grants}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+    1708 & Captain's Certificates \\
+    1710 & Travel grant \\
+    1715--1716 & Grant from the Pirate's Company
+\end{tabular}
+\bigskip
+
+\section*{Languages}
+\begin{tabular}{l | ll}
+\textbf{English} & C2 & {\phantom{x}\footnotesize mother tongue} \\
+\textbf{French} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
+\textbf{Spanish} & C2 & \pictofraction{\faCircle}{cvgreen}{1}{black!30}{3}{\tiny} \\
+\textbf{Italian} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny}
+\end{tabular}
+\bigskip
+
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Publications}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+    1729 & \emph{How I almost got killed by Lady Swan}, Tortuga Printing Press. \\
+    1720 & ``Privateering for Beginners'', in: \emph{The Pragmatic Pirate} (1/1720).
+\end{tabular}
+\bigskip
+
+\section*{Talks}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
+    Nov. 1726 & ``How I lost my ship (\& and how to get it back)'', at: \emph{Annual Pirate's Conference} in Tortuga, Nov. 1726.
+\end{tabular}
+\end{minipage}
+
+
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Jack Sparrow \icon{\faEnvelopeO}{cvgreen}{} The Black Pearl \icon{\faMapMarker}{cvgreen}{} Tortuga \icon{\faPhone}{cvgreen}{} 0099/333 5647380 \newline\icon{\faAt}{cvgreen}{} \protect\url{jack@sparrow.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{simplehipstercv}[2019/06/22 A New Simple CV Template]
+
+\LoadClass[]{article}
+\RequirePackage{xcolor}
+
+\definecolor{headercolour}{rgb}{0.25,0.25,0.25}
+%-------------------------------------------------------
+\definecolor{materialpurple}{HTML}{9C27B0}
+\definecolor{materialindigo}{HTML}{3F51B5}
+\definecolor{materialblue}{HTML}{2196F3}
+\definecolor{materialcyan}{HTML}{00BCD4}
+\definecolor{materialteal}{HTML}{009688}
+\definecolor{materialgreen}{HTML}{4CAF50}
+\definecolor{materiallime}{HTML}{CDDC39}
+\definecolor{materialamber}{HTML}{FFC107}
+\definecolor{materialbrown}{HTML}{795548}
+\definecolor{materialred}{HTML}{FF4436}
+\definecolor{materialorange}{HTML}{FF5722}
+\definecolor{pblue}{HTML}{0395DE}
+\newcommand{\iconsize}{\huge}
+% ---------------------------------------------------------------------------
+\DeclareOption{darkhipster}{
+% Farben
+\definecolor{headerblue}{HTML}{2EB6E1}%
+\definecolor{cvorange}{HTML}{FFC300}
+\definecolor{cvpurple}{HTML}{B32EE1}
+\colorlet{headercolour}{black!90}
+
+\definecolor{cvred}{HTML}{E1592E}
+\definecolor{cvgreen}{HTML}{5DE12E}
+
+\colorlet{cvgreen}{cvred}
+\colorlet{cvpurple}{headerblue}
+
+% TIMELINE
+\definecolor{timelinecolour}{HTML}{414B96} %#660022
+\definecolor{jackbeige}{RGB}{226,212,186} 
+
+
+\newcommand{\paracolbackgroundoptions}{
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.25,0.25,0.25}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{0.25,0.25,0.25}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+}
+\newcommand{\setasidefontcolour}{
+\color{white}
+}
+
+\definecolor{labelcolour}{HTML}{FFFFFF}
+\definecolor{iconcolour}{HTML}{000000}
+\definecolor{headerfontbox}{HTML}{000000}
+\definecolor{headerfontboxfont}{HTML}{FFFFFF}
+\definecolor{skilllabelcolour}{HTML}{b3b3b3}
+}
+% ---------------------------------------------------------------------------
+\DeclareOption{lighthipster}{
+% Farben
+\definecolor{headerblue}{HTML}{2EB6E1}%
+\definecolor{cvorange}{HTML}{FFC300}
+\definecolor{cvpurple}{HTML}{B32EE1}
+
+\definecolor{cvred}{HTML}{E1592E}
+\definecolor{cvgreen}{HTML}{5DE12E}
+\colorlet{cvgreen}{headerblue}
+\colorlet{cvpurple}{cvred}
+
+% TIMELINE
+\definecolor{timelinecolour}{HTML}{414B96} %#660022
+\definecolor{jackbeige}{RGB}{226,212,186}  
+
+\newcommand{\paracolbackgroundoptions}{
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.9,0.9,0.9}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{0.9,0.9,0.9}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+}
+\newcommand{\setasidefontcolour}{
+\color{black}
+}
+\definecolor{labelcolour}{HTML}{000000}
+\definecolor{iconcolour}{HTML}{000000}
+\definecolor{headerfontbox}{HTML}{000000}
+\definecolor{headerfontboxfont}{HTML}{FFFFFF}
+\definecolor{skilllabelcolour}{HTML}{b3b3b3}
+}
+% ---------------------------------------------------------------------------
+\DeclareOption{pastel}{
+% Farben
+\definecolor{headerblue}{HTML}{6978B6}%
+\definecolor{cvorange}{HTML}{FFC300}
+\definecolor{cvpurple}{HTML}{B66978}
+
+\definecolor{cvred}{HTML}{B66978}
+\definecolor{cvgreen}{HTML}{78B669}
+
+
+% TIMELINE
+\definecolor{timelinecolour}{HTML}{414B96} %#660022
+\definecolor{jackbeige}{RGB}{226,212,186} 
+
+\newcommand{\paracolbackgroundoptions}{
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.9,0.9,0.9}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{0.9,0.9,0.9}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+}
+
+\newcommand{\setasidefontcolour}{
+\color{black}
+}
+\definecolor{labelcolour}{HTML}{000000}
+\definecolor{iconcolour}{HTML}{000000}
+\definecolor{headerfontbox}{HTML}{000000}
+\definecolor{headerfontboxfont}{HTML}{FFFFFF}
+\definecolor{skilllabelcolour}{HTML}{b3b3b3}
+}
+
+% ---------------------------------------------------------------------------
+\DeclareOption{allblack}{
+% Farben
+\definecolor{headerblue}{HTML}{000000}%
+\definecolor{cvorange}{HTML}{000000}
+\definecolor{cvpurple}{HTML}{000000}
+
+\definecolor{cvred}{HTML}{000000}
+\definecolor{cvgreen}{HTML}{000000}
+
+\colorlet{headercolour}{black!90}
+
+
+% TIMELINE
+\definecolor{timelinecolour}{HTML}{414B96} %#660022
+\definecolor{jackbeige}{RGB}{226,212,186} 
+ 
+\newcommand{\paracolbackgroundoptions}{
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{1,1,1}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{1,1,1}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+}
+
+\newcommand{\setasidefontcolour}{
+\color{black}
+}
+\definecolor{labelcolour}{HTML}{000000}
+\definecolor{iconcolour}{HTML}{FFFFFF}
+\definecolor{headerfontbox}{HTML}{FFFFFF}
+\definecolor{headerfontboxfont}{HTML}{000000}
+\definecolor{skilllabelcolour}{HTML}{000000}
+
+%-------------------------------------------------------
+\definecolor{darkgrey}{HTML}{b3b3b3}
+\colorlet{materialpurple}{darkgrey}
+\colorlet{materialindigo}{darkgrey}
+\colorlet{materialblue}{darkgrey}
+\colorlet{materialcyan}{darkgrey}
+\colorlet{materialteal}{darkgrey}
+\colorlet{materialgreen}{darkgrey}
+\colorlet{materiallime}{darkgrey}
+\colorlet{materialamber}{darkgrey}
+\colorlet{materialbrown}{darkgrey}
+\colorlet{materialred}{darkgrey}
+\colorlet{materialorange}{darkgrey}
+\colorlet{pblue}{darkgrey}
+\colorlet{orange}{darkgrey}
+\colorlet{green}{darkgrey}
+
+\renewcommand{\iconsize}{\Large}
+}
+% ---------------------------------------------------------------------------
+\DeclareOption{grey}{
+% Farben
+\colorlet{headercolour}{black!50}
+\definecolor{headerblue}{HTML}{212F3D}%
+\definecolor{cvorange}{HTML}{b3b3b3}
+\definecolor{cvpurple}{HTML}{b3b3b3}
+
+\definecolor{cvred}{HTML}{b3b3b3}
+\colorlet{cvgreen}{black!50}
+
+
+% TIMELINE
+\definecolor{timelinecolour}{HTML}{414B96} %#660022
+\definecolor{jackbeige}{RGB}{226,212,186} 
+ 
+ 
+\newcommand{\paracolbackgroundoptions}{
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{1,1,1}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{1,1,1}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+}
+
+\newcommand{\setasidefontcolour}{
+\color{black}
+}
+\definecolor{labelcolour}{HTML}{FFFFFF}
+\definecolor{iconcolour}{HTML}{FFFFFF}
+\definecolor{headerfontbox}{HTML}{000000}
+\definecolor{headerfontboxfont}{HTML}{FFFFFF}
+\definecolor{skilllabelcolour}{HTML}{212F3D}
+%black!30
+
+%-------------------------------------------------------
+\definecolor{darkgrey}{HTML}{b3b3b3}
+\colorlet{materialpurple}{darkgrey}
+\colorlet{materialindigo}{darkgrey}
+\colorlet{materialblue}{darkgrey}
+\colorlet{materialcyan}{darkgrey}
+\colorlet{materialteal}{darkgrey}
+\colorlet{materialgreen}{darkgrey}
+\colorlet{materiallime}{darkgrey}
+\colorlet{materialamber}{darkgrey}
+\colorlet{materialbrown}{darkgrey}
+\colorlet{materialred}{darkgrey}
+\colorlet{materialorange}{darkgrey}
+\colorlet{pblue}{darkgrey}
+\colorlet{orange}{darkgrey}
+\colorlet{green}{darkgrey}
+
+\renewcommand{\iconsize}{\Large}
+}
+
+% ---------------------------------------------------------------------------
+\DeclareOption{verylight}{
+% Farben
+\definecolor{headerblue}{HTML}{b3b3b3}%
+\definecolor{cvorange}{HTML}{b3b3b3}
+\definecolor{cvpurple}{HTML}{b3b3b3}
+
+\definecolor{cvred}{HTML}{b3b3b3}
+\definecolor{cvgreen}{HTML}{00b3b3}
+
+
+% TIMELINE
+\definecolor{timelinecolour}{HTML}{414B96} %#660022
+\definecolor{jackbeige}{RGB}{226,212,186} 
+ 
+\newcommand{\paracolbackgroundoptions}{
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.9,0.9,0.9}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{0.9,0.9,0.9}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+}
+
+\newcommand{\setasidefontcolour}{
+\color{black}
+}
+\definecolor{labelcolour}{HTML}{000000}
+\definecolor{iconcolour}{HTML}{FFFFFF}
+\definecolor{headerfontbox}{HTML}{FFFFFF}
+\definecolor{headerfontboxfont}{HTML}{000000}
+\definecolor{skilllabelcolour}{HTML}{000000}
+
+%-------------------------------------------------------
+\definecolor{darkgrey}{HTML}{b3b3b3}
+\colorlet{materialpurple}{darkgrey}
+\colorlet{materialindigo}{darkgrey}
+\colorlet{materialblue}{darkgrey}
+\colorlet{materialcyan}{darkgrey}
+\colorlet{materialteal}{darkgrey}
+\colorlet{materialgreen}{darkgrey}
+\colorlet{materiallime}{darkgrey}
+\colorlet{materialamber}{darkgrey}
+\colorlet{materialbrown}{darkgrey}
+\colorlet{materialred}{darkgrey}
+\colorlet{materialorange}{darkgrey}
+\colorlet{pblue}{darkgrey}
+\colorlet{orange}{darkgrey}
+\colorlet{green}{darkgrey}
+
+\renewcommand{\iconsize}{\Large}
+}
+% ---------------------------------------------------------------------------
+
+\DeclareOption{withoutsidebar}{
+% Farben
+\definecolor{headerblue}{HTML}{b3b3b3}%
+\definecolor{cvorange}{HTML}{b3b3b3}
+\definecolor{cvpurple}{HTML}{b3b3b3}
+
+\definecolor{cvred}{HTML}{b3b3b3}
+\definecolor{cvgreen}{HTML}{00b3b3}
+
+
+% TIMELINE
+\definecolor{timelinecolour}{HTML}{414B96} %#660022
+\definecolor{jackbeige}{RGB}{226,212,186} 
+ 
+\newcommand{\paracolbackgroundoptions}{
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{1,1,1}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{1,1,1}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+}
+
+\newcommand{\setasidefontcolour}{
+\color{black}
+}
+\definecolor{labelcolour}{HTML}{000000}
+\definecolor{iconcolour}{HTML}{FFFFFF}
+\definecolor{headerfontbox}{HTML}{FFFFFF}
+\definecolor{headerfontboxfont}{HTML}{000000}
+\definecolor{skilllabelcolour}{HTML}{000000}
+
+%-------------------------------------------------------
+\definecolor{darkgrey}{HTML}{b3b3b3}
+\colorlet{materialpurple}{darkgrey}
+\colorlet{materialindigo}{darkgrey}
+\colorlet{materialblue}{darkgrey}
+\colorlet{materialcyan}{darkgrey}
+\colorlet{materialteal}{darkgrey}
+\colorlet{materialgreen}{darkgrey}
+\colorlet{materiallime}{darkgrey}
+\colorlet{materialamber}{darkgrey}
+\colorlet{materialbrown}{darkgrey}
+\colorlet{materialred}{darkgrey}
+\colorlet{materialorange}{darkgrey}
+\colorlet{pblue}{darkgrey}
+\colorlet{orange}{darkgrey}
+\colorlet{green}{darkgrey}
+
+\renewcommand{\iconsize}{\Large}
+}
+
+
+
+% ---------------------------------------------------------------------------
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
+\ProcessOptions\relax
+
+\usepackage{simplehipstercv}
+
+\usepackage[T1]{fontenc}
+
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\setlength{\parindent}{0cm}
+\usepackage{paracol}
+\usepackage{ifthen}
+
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage{smartdiagram}
+\usepackage{float}
+
+\usepackage{array}
+%\setlength\extrarowheight{1.5em} % adds some spacing between the lines of the CV's tabulars
+% not used here as not to interfer with other tables
+\usetikzlibrary{decorations.text}
+\usetikzlibrary{fadings}
+\usetikzlibrary{calc}
+
+\usetikzlibrary{shapes.misc,positioning}
+\usetikzlibrary{arrows}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{backgrounds} 
+\usetikzlibrary{shadings}
+\usetikzlibrary{calendar} 
+\usetikzlibrary{er}
+\usetikzlibrary{patterns} % horizontal lines, vertical lines, north east lines, north west lines, grid, crosshatch, dots, crosshatch dots, fivepointed stars, sixpointed stars, bricks
+\usetikzlibrary{shapes} 
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{decorations}
+\usetikzlibrary{topaths}
+
+\usepackage{graphicx}
+%\usepackage[usenames, dvipsnames]{color} 
+% https://de.sharelatex.com/learn/Using_colours_in_LaTeX#!#Reference_guide z.B. \color{RubineRed}
+%\usepackage{xcolor}
+
+
+% avoid line overflow
+\setlength{\emergencystretch}{2pt}
+%---------------------------------------------------------------------------------
+
+\usepackage{titlesec} % Allows creating custom \sections
+
+% Format of the section titles
+\titleformat{\section}{
+\scshape\Large\raggedright}{}{0em}{}[\titlerule] % smallcaps, Large, continuous line - looks better if two columns, might look a bit too dramatic if just one ;) 
+\titlespacing{\section}{0pt}{12pt}{5pt} % Spacing around titles {<left spacing>}{<before spacing>}{<after spacing>}
+%----------------------------------------------------
+
+ \newcommand{\cvkeyword}[3]{
+ \colorbox{#2}{\textcolor{#3}{#1}} \phantom{}%
+ }
+ 
+%------------------------
+\newcommand{\cvtag}[1]{% from alta-cv: https://www.overleaf.com/latex/templates/altacv-template/trgqjpwnmtgv
+  \tikz[baseline]\node[draw=black!40,rounded corners,inner sep=0.4em]{\color{black!50}#1};
+}
+
+
+%------------------- ICON Cross
+
+\newcommand{\iconcross}[7]{%
+\begin{tikzpicture}%
+\draw[ultra thick,draw=#2] (-2,-2) -- (2,2);%
+\draw[ultra thick, draw=#2] (-2,2) -- (2,-2);%
+\node[above=0.5em,text=#3] at (0,1) {#1 #4};%
+\node[below=0.5em,text=#3] at (0,-1) {#1 #5};%
+\node[right=0.5em,text=#3] at (1,0) {#1 #6};%
+\node[left=0.5em,text=#3] at (-1,0) {#1 #7};%
+\end{tikzpicture}%
+}
+ 
+
+\usepackage{smartdiagram}
+%-----------------------------------------------------
+% set smartdiagram colours, from: https://github.com/Johayon/Data-Scientist-Resume-LaTeX/blob/master/twentysecondcv.cls
+
+
+%-------------------------------------------------------
+\smartdiagramset{
+    bubble center node font = \footnotesize,
+    bubble node font = \footnotesize,
+    % specifies the minimum size of the bubble center node
+    bubble center node size = 0.5cm,
+    %  specifies the minimum size of the bubbles
+    bubble node size = 0.5cm,
+    % specifies which is the distance among the bubble center node and the other bubbles
+    distance center/other bubbles = 0.3cm,
+    % sets the distance from the text to the border of the bubble center node
+    distance text center bubble = 0.5cm,
+    % set center bubble color
+    bubble center node color = pblue,
+    % define the list of colors usable in the diagram
+    set color list = {materialcyan, orange, green, materialorange, materialteal, materialamber, materialindigo, materialgreen, materiallime},
+    % sets the opacity at which the bubbles are shown
+    bubble fill opacity = 0.6,
+    % sets the opacity at which the bubble text is shown
+    bubble text opacity = 1,
+    description title text width=0.5cm,
+    description title width=0.5cm,
+    description width=5cm,
+    description text width=5cm,
+    descriptive items y sep =1.25,
+    back arrow distance = 0,
+    back arrow disabled = true,
+    border color = white
+}
+%-------------------------------
+\newcommand{\lorem}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.} % Dummy text
+
+%--------------------------------------------------- pictures
+\newcommand{\roundpic}[1]{\begin{figure}[H]\tikz  \draw [path picture={ \node at (path picture bounding box.center){\includegraphics[height=3.5cm]{#1}} ;}] (0,2) circle (1.7) ;\end{figure}}
+
+\newcommand{\squarepic}[1]{\begin{figure}[H]\tikz  \draw [path picture={ \node at (path picture bounding box.center){\includegraphics[height=4cm]{#1}} ;}] (0,0) - - (-2,2) - - (0,4) - - (2,2) - - cycle ;\end{figure}}
+
+
+%------------------------------------ pictoFraction
+\newcommand{\icon}[3]{\phantom{x}{#3\color{#2}#1}\phantom{x}}
+%------------------- pictogram Fraction: pictoFraction
+\newcommand{\pictofraction}[6]{%
+\pgfmathparse{#3 - 1}\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#2}{#6}}%
+\pgfmathparse{#5 - 1}\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#4}{#6}}%
+}
+
+
+
+%----------------------------------------------------- font highlighting / boxes with background color 
+\newcommand{\bg}[3]{\colorbox{#1}{\bfseries\color{#2}#3}}
+\newcommand{\bgupper}[3]{\colorbox{#1}{\color{#2}\huge\bfseries\MakeUppercase{#3}}}
+
+%------------------------- Bubble Diagram
+\newcommand{\bubblediagram}[1]{\smartdiagram[bubble diagram]{#1}}
+
+
+\newcommand{\skillbubble}[2]{%
+\begin{tikzpicture}%
+\draw[draw=none,fill=#1] (0,0) circle (0.#2);%
+\end{tikzpicture}%
+}
+
+\newcommand{\hobbyicon}[5]{%
+\begin{tikzpicture}%
+\draw[draw=none,fill=#3] (0,0) circle (0.5);%
+\node[](icon) at (0,0) {#4#1};%
+\node[below=#5,align=center] at (icon) {#2};%
+\end{tikzpicture}
+}
+
+
+
+%-------------------------------------------- rules / separators
+
+\newcommand{\dashrule}[2]{\begin{figure}[H]\begin{minipage}[t]{#1\textwidth}\tikz \draw[loosely dashed,#2] (0pt,0pt) -- (\textwidth,0pt);\end{minipage}\end{figure}}
+
+\newcommand{\dotrule}[2]{\begin{figure}[H]\begin{minipage}[t]{#1\textwidth}\tikz \draw[loosely dotted, ultra thick,#2] (0,0) -- (\textwidth,0);\end{minipage}\end{figure}}
+
+
+%-------------------------------------------------------
+
+
+
+
+\newcommand{\event}[5]{%
+{%
+\draw[draw=black, line width=0.2em,anchor=west] (0,#1) -- (#5,#1);%
+\node[fill=#2,right,inner sep=0.5em] 	at (#5,#1) {\textbf{#3}~~#4 };%
+} % startpunkt #1. Farbe #2, Detaildatum #3, Beschreibung #4, Entfernung von Timeline #5
+}
+
+%---------------------------------------------------------
+\newcommand{\barrule}[3]{\hspace{0.5em}
+{\color{#3}\rule[\baselineskip]{#1\textwidth}{#2}}\vspace{0.5em}
+}
+
+\newcommand{\cvevent}[6]{{#1} & \textbf{#2}\newline\textsc{#3} $\cdot$ {#4 ~\faMapMarker}\newline{\color{black!70}\footnotesize #5}\vspace{1.5em} & \raisebox{-0.7\height}{\includegraphics[height=1cm]{#6}}}
+
+\newcommand{\cvdegree}[6]{{#1} & \textbf{#2}\newline\textsc{#3} $\cdot$ {#4 {\phantom{i}\footnotesize ~\faUniversity}}\newline{\color{black!70}\scriptsize #5}\vspace{0.5em} & \raisebox{-0.7\height}{\includegraphics[height=0.5cm]{#6}}}
+
+
+
+
+
+
+
+
+% -----------------------------------------------------------------------------------
+
+\newcommand{\simpleheader}[5]{
+\tikz[remember picture,overlay] {%
+\node[rectangle, fill=#1, anchor=north, minimum width=\paperwidth, minimum height=3.5cm](header) at (current page.north){};%
+\node[draw=none, align=left](name) at (header) {%
+{\Huge \color{#5} #2 \textbf{#3} }%
+};%
+\node[draw=none, below](description) at (name.south) {\color{white}#4};% 
+}\vspace{-0.7cm}%
+}
+
+
+\newcommand{\infobubble}[4]{
+\scalebox{1.3}{
+\begin{tikzpicture}
+\draw[draw=#2,fill=#2] (0,0) circle (0.2cm);
+\node[] at (0,0) {\color{#3}\textbf{#1}};
+\node[right=0.2cm] at (0,0) {\texttt{#4}};
+\end{tikzpicture}
+}
+}

@@ -5,58 +5,92 @@
 \usepackage[default]{raleway}
 \usepackage[margin=0cm, a4paper]{geometry}
 
-
 %------------------------------------------------------------------ Variablen
 
 \newlength{\rightcolwidth}
 \newlength{\leftcolwidth}
-\setlength{\leftcolwidth}{0.23\textwidth}
-\setlength{\rightcolwidth}{0.75\textwidth}
+\setlength{\leftcolwidth}{0.34\textwidth}
+\setlength{\rightcolwidth}{0.63\textwidth}
 
 %------------------------------------------------------------------
-\title{New Simple CV}
-\author{\LaTeX{} Ninja}
-\date{June 2019}
-
-\pagestyle{empty}
+\pagestyle{plain}
 \begin{document}
 
 
-\thispagestyle{empty}
+\thispagestyle{plain}
 %-------------------------------------------------------------
 
 % this has to be here so the paracols starts..
-\subsection*{}
-\vspace{4em}
-
-\setlength{\columnsep}{1.5cm}
-\columnratio{0.23}[0.75]
+\setlength{\columnsep}{5.6mm}
+\columnratio{0.34}[0.63]
 \begin{paracol}{2}
 \hbadness5000
-%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+% \backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 
+% \backgroundcolor{g}[rgb]{0.8,1,1} 
+% \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
 
 \paracolbackgroundoptions
 
 % 0.9,0.9,0.9 -- 0.8,0.8,0.8
 
-
-\footnotesize
-{\setasidefontcolour
 \center
 
-\bg{cvgreen}{white}{About me}\\[0.5em]
+\includegraphics[width=0.344\textwidth]{figures/top.png}
 
-{\footnotesize
-\lorem\lorem\lorem}
+\footnotesize
+{
+\color{black}
+\center
+{\footnotesize}
+
+% Personal details section 'erere
+\begin{minipage}[t]{0.3\textwidth}
+	\section*{Personal Details}
+	\begin{tabular}{>{\footnotesize\bfseries}l >{\footnotesize}p{0.55\textwidth} }
+		  
+		  \vcell{\includegraphics[width=6.8mm]{figures/Identity.png}}
+		& \vcell{Wiktor Tomanek}					\\[-\rowheight]
+		  \printcellmiddle & \printcellmiddle				\\ 
+		
+		  \vcell{\includegraphics[width=6.8mm]{figures/Mail.png}} 
+		& \vcell{wiktor.tomanek.5@gmail.com} 				\\[-\rowheight]
+		  \printcellmiddle & \printcellmiddle 				\\ 
+		
+		  \vcell{\includegraphics[width=6.8mm]{figures/Phone.png}}
+		& \vcell{+48 503 636 910} 					\\[-\rowheight]
+		  \printcellmiddle & \printcellmiddle 				\\ 
+		
+		  \vcell{\includegraphics[width=6.8mm]{figures/Address.png}}
+		& \vcell{Zuidstraat 29 \newline 2225 GS Katwijk aan Zee} 	\\[-\rowheight]
+		  \printcellmiddle & \printcellmiddle 				\\ 
+		
+		  \vcell{\includegraphics[width=6.8mm]{figures/License.png}}
+		& \vcell{AM B} 							\\[-\rowheight]
+		  \printcellmiddle & \printcellmiddle 				\\ 
+		
+		  \vcell{\includegraphics[width=6.8mm]{figures/Web.png}}
+		& \vcell{\href{https://github.com/Xses-1}{github.com/Xses-1}} 	\\[-\rowheight]
+		  \printcellmiddle & \printcellmiddle 				\\ 
+		
+		  \vcell{\includegraphics[width=6.8mm]{figures/LinkIN.png}} 
+		& \vcell{\href{https://www.linkedin.com/in/wtomanek}{linkedin.com/in/wtomanek}}
+			\\[-\rowheight]
+		  \printcellmiddle & \printcellmiddle 
+
+	\end{tabular}
+
+\bigskip
 \bigskip
 
-\bg{cvgreen}{white}{personal} \\[0.5em]
-Jack Sparrow
+\section*{Languages}
+\begin{tabular}{l r}
+	\textbf{English} & {\phantom{x}\footnotesize mother tongue} \\
+	\textbf{French}  & \pictofraction{\faCircle}{Blue}{3}{black!30}{1}{} \\
+	\textbf{Spanish} & \pictofraction{\faCircle}{Blue}{1}{black!30}{3}{} \\
+	\textbf{Italian} & \pictofraction{\faCircle}{Blue}{3}{black!30}{1}{}
+\end{tabular}
 
-nationality: English 
-
-1690
-
+\end{minipage}
 \bigskip
 
 \bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
