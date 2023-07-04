@@ -14,6 +14,7 @@
 
 \usepackage{array}
 \usepackage{vcell}
+\usepackage{tabularx}
 %\setlength\extrarowheight{1.5em} % adds some spacing between the lines of the CV's tabulars
 % not used here as not to interfer with other tables
 \usetikzlibrary{decorations.text}
@@ -122,12 +123,14 @@
 %------------------------------------ pictoFraction
 \newcommand{\icon}[3]{\phantom{x}{#3\color{#2}#1}\phantom{x}}
 %------------------- pictogram Fraction: pictoFraction
-\newcommand{\pictofraction}[6]{%
-\pgfmathparse{#3 - 1}\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#2}{#6}}%
-\pgfmathparse{#5 - 1}\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#4}{#6}}%
+\newcommand{\pictofraction}[6]{
+\pgfmathparse{#3 - 1}\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#2}{#6}}
+\pgfmathparse{#5 - 1}\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#4}{#6}}
 }
 
-
+\newcommand{\pictofractionFull}[6]{
+\pgfmathparse{#3 - 1}\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#2}{#6}}
+}
 
 %----------------------------------------------------- font highlighting / boxes with background color 
 \newcommand{\bg}[3]{\colorbox{#1}{\bfseries\color{#2}#3}}

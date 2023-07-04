@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.27)  4 JUL 2023 20:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.27)  4 JUL 2023 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -641,20 +641,30 @@ Package: vcell 2021/04/30 v1.0.2
 \@cellusecount=\count307
 \@celltemp=\box77
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen264
+\TX@old@table=\dimen265
+\TX@old@col=\dimen266
+\TX@target=\dimen267
+\TX@delta=\dimen268
+\TX@cols=\count308
+\TX@ftn=\toks34
+)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.text.code.tex
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen264
-\pgfdecoratedremainingdistance=\dimen265
-\pgfdecoratedinputsegmentcompleteddistance=\dimen266
-\pgfdecoratedinputsegmentremainingdistance=\dimen267
-\pgf@decorate@distancetomove=\dimen268
-\pgf@decorate@repeatstate=\count308
-\pgfdecorationsegmentamplitude=\dimen269
-\pgfdecorationsegmentlength=\dimen270
+\pgfdecoratedcompleteddistance=\dimen269
+\pgfdecoratedremainingdistance=\dimen270
+\pgfdecoratedinputsegmentcompleteddistance=\dimen271
+\pgfdecoratedinputsegmentremainingdistance=\dimen272
+\pgf@decorate@distancetomove=\dimen273
+\pgf@decorate@repeatstate=\count309
+\pgfdecorationsegmentamplitude=\dimen274
+\pgfdecorationsegmentlength=\dimen275
 )
 \tikz@lib@dec@box=\box78
 )
@@ -679,10 +689,10 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen271
-\pgfarrowlength=\dimen272
-\pgfarrowwidth=\dimen273
-\pgfarrowlinewidth=\dimen274
+\pgfarrowinset=\dimen276
+\pgfarrowlength=\dimen277
+\pgfarrowwidth=\dimen278
+\pgfarrowlinewidth=\dimen279
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryshadings.code.tex
@@ -700,17 +710,17 @@ File: tikzlibrarycalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
 tex
 File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfcalendarcurrentjulian=\count309
-\pgf@cal@easter@Y=\count310
-\pgf@cal@easter@G=\count311
-\pgf@cal@easter@C=\count312
-\pgf@cal@easter@X=\count313
-\pgf@cal@easter@Z=\count314
-\pgf@cal@easter@D=\count315
-\pgf@cal@easter@E=\count316
-\pgf@cal@easter@N=\count317
-\pgf@cal@easter@M=\count318
-\pgf@cal@easter@julianday=\count319
+\pgfcalendarcurrentjulian=\count310
+\pgf@cal@easter@Y=\count311
+\pgf@cal@easter@G=\count312
+\pgf@cal@easter@C=\count313
+\pgf@cal@easter@X=\count314
+\pgf@cal@easter@Z=\count315
+\pgf@cal@easter@D=\count316
+\pgf@cal@easter@E=\count317
+\pgf@cal@easter@N=\count318
+\pgf@cal@easter@M=\count319
+\pgf@cal@easter@julianday=\count320
 )))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryer.code.tex
@@ -773,17 +783,17 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box101
 \beforetitleunit=\skip55
 \aftertitleunit=\skip56
-\ttl@plus=\dimen275
-\ttl@minus=\dimen276
-\ttl@toksa=\toks34
-\titlewidth=\dimen277
-\titlewidthlast=\dimen278
-\titlewidthfirst=\dimen279
+\ttl@plus=\dimen280
+\ttl@minus=\dimen281
+\ttl@toksa=\toks35
+\titlewidth=\dimen282
+\titlewidthlast=\dimen283
+\titlewidthfirst=\dimen284
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks35
-\inpenc@posthook=\toks36
+\inpenc@prehook=\toks36
+\inpenc@posthook=\toks37
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/raleway/raleway.sty
 Package: raleway 2016/12/03 v1.4 Matt McInerney’s Raleway family
@@ -793,10 +803,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks37
-\XKV@tempa@toks=\toks38
+\XKV@toks=\toks38
+\XKV@tempa@toks=\toks39
 )
-\XKV@depth=\count320
+\XKV@depth=\count321
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
@@ -941,18 +951,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count321
-\Gm@cntv=\count322
-\c@Gm@tempcnt=\count323
-\Gm@bindingoffset=\dimen280
-\Gm@wd@mp=\dimen281
-\Gm@odd@mp=\dimen282
-\Gm@even@mp=\dimen283
-\Gm@layoutwidth=\dimen284
-\Gm@layoutheight=\dimen285
-\Gm@layouthoffset=\dimen286
-\Gm@layoutvoffset=\dimen287
-\Gm@dimlist=\toks39
+\Gm@cnth=\count322
+\Gm@cntv=\count323
+\c@Gm@tempcnt=\count324
+\Gm@bindingoffset=\dimen285
+\Gm@wd@mp=\dimen286
+\Gm@odd@mp=\dimen287
+\Gm@even@mp=\dimen288
+\Gm@layoutwidth=\dimen289
+\Gm@layoutheight=\dimen290
+\Gm@layouthoffset=\dimen291
+\Gm@layoutvoffset=\dimen292
+\Gm@dimlist=\toks40
 )
 \rightcolwidth=\skip57
 \leftcolwidth=\skip58
@@ -997,17 +1007,17 @@ LaTeX Font Info:    ... okay on input line 17.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
-\scratchdimen=\dimen288
+\scratchcounter=\count325
+\scratchdimen=\dimen293
 \scratchbox=\box102
-\nofMPsegments=\count325
-\nofMParguments=\count326
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count327
-\MPscratchDim=\dimen289
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
-\everyMPtoPDFconversion=\toks41
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen294
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1078,8 +1088,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 49.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 51.
 <figures/Identity.png, id=36, 56.46094pt x 56.46094pt>
 File: figures/Identity.png Graphic file (type png)
 <use figures/Identity.png>
@@ -1093,11 +1101,6 @@ File: figures/Mail.png Graphic file (type png)
 Package pdftex.def Info: figures/Mail.png  used on input line 55.
 (pdftex.def)             Requested size: 19.34787pt x 19.34808pt.
 \@cellbox1=\box105
-
-Overfull \hbox (9.04155pt too wide) in paragraph at lines 56--56
-[]|\T1/Raleway-TLF/m/n/8 wiktor.tomanek.5@gmail.com 
- []
-
 \@cellbox2=\box106
 <figures/Phone.png, id=38, 56.46094pt x 56.46094pt>
 File: figures/Phone.png Graphic file (type png)
@@ -1133,116 +1136,116 @@ File: figures/LinkIN.png Graphic file (type png)
 Package pdftex.def Info: figures/LinkIN.png  used on input line 75.
 (pdftex.def)             Requested size: 19.34787pt x 19.34808pt.
 \@cellbox1=\box115
-
-Overfull \hbox (3.19359pt too wide) in paragraph at lines 76--76
-[]|[]\T1/Raleway-TLF/m/n/8 linkedin.com/in/wtomanek[] 
- []
-
 \@cellbox2=\box116
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 88.
+ut line 93.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-LaTeX Font Info:    Trying to load font information for TS1+Raleway-TLF on inpu
-t line 98.
+Overfull \hbox (13.9928pt too wide) in paragraph at lines 88--114
+[][] 
+ []
 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 118.
+LaTeX Font Info:    Trying to load font information for TS1+Raleway-TLF on inpu
+t line 120.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/raleway/TS1Raleway-TLF.fd
 File: TS1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for TS1/Raleway-
 TLF.
 )
 LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 98.
+(Font)              scaled to size 8.0pt on input line 120.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-13.
+35.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 121.
+ut line 143.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomeone/b/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 121.
+(Font)              using `U/fontawesomeone/m/n' instead on input line 143.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
-nput line 122.
+nput line 144.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomethree/b/n' undefined
-(Font)              using `U/fontawesomethree/m/n' instead on input line 122.
+(Font)              using `U/fontawesomethree/m/n' instead on input line 144.
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 123.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 145.
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 133.
+(Font)              scaled to size 9.0pt on input line 155.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 136.
+(Font)              <9> on input line 158.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 137.
+(Font)              scaled to size 9.0pt on input line 159.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 137.
-<disney.png, id=45, 225.84375pt x 225.84375pt>
+(Font)              scaled to size 9.0pt on input line 159.
+<disney.png, id=45, 40.65187pt x 40.65187pt>
 File: disney.png Graphic file (type png)
 <use disney.png>
-Package pdftex.def Info: disney.png  used on input line 137.
-(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
-<medal.jpeg, id=46, 225.84375pt x 225.84375pt>
-File: medal.jpeg Graphic file (type jpg)
-<use medal.jpeg>
-Package pdftex.def Info: medal.jpeg  used on input line 138.
-(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+Package pdftex.def Info: disney.png  used on input line 159.
+(pdftex.def)             Requested size: 28.45363pt x 28.45274pt.
+<medal.png, id=46, 40.65187pt x 40.65187pt>
+File: medal.png Graphic file (type png)
+<use medal.png>
+Package pdftex.def Info: medal.png  used on input line 160.
+(pdftex.def)             Requested size: 28.45363pt x 28.45274pt.
 
-Overfull \hbox (25.62764pt too wide) in paragraph at lines 136--141
+Overfull \hbox (25.63033pt too wide) in paragraph at lines 158--163
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 145.
+(Font)              scaled to size 7.0pt on input line 167.
 File: disney.png Graphic file (type png)
 <use disney.png>
-Package pdftex.def Info: disney.png  used on input line 145.
-(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-File: medal.jpeg Graphic file (type jpg)
-<use medal.jpeg>
-Package pdftex.def Info: medal.jpeg  used on input line 146.
-(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
-File: medal.jpeg Graphic file (type jpg)
-<use medal.jpeg>
-Package pdftex.def Info: medal.jpeg  used on input line 147.
-(pdftex.def)             Requested size: 14.22546pt x 14.22636pt.
+Package pdftex.def Info: disney.png  used on input line 167.
+(pdftex.def)             Requested size: 14.22588pt x 14.22636pt.
+File: medal.png Graphic file (type png)
+<use medal.png>
+Package pdftex.def Info: medal.png  used on input line 168.
+(pdftex.def)             Requested size: 14.22588pt x 14.22636pt.
+File: medal.png Graphic file (type png)
+<use medal.png>
+Package pdftex.def Info: medal.png  used on input line 169.
+(pdftex.def)             Requested size: 14.22588pt x 14.22636pt.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 6.0pt on input line 154.
+(Font)              scaled to size 6.0pt on input line 176.
 File: disney.png Graphic file (type png)
 <use disney.png>
-Package pdftex.def Info: disney.png  used on input line 163.
-(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
-File: medal.jpeg Graphic file (type jpg)
-<use medal.jpeg>
-Package pdftex.def Info: medal.jpeg  used on input line 164.
-(pdftex.def)             Requested size: 28.45094pt x 28.45274pt.
+Package pdftex.def Info: disney.png  used on input line 185.
+(pdftex.def)             Requested size: 28.45363pt x 28.45274pt.
+File: medal.png Graphic file (type png)
+<use medal.png>
+Package pdftex.def Info: medal.png  used on input line 186.
+(pdftex.def)             Requested size: 28.45363pt x 28.45274pt.
 
-Overfull \hbox (25.62764pt too wide) in paragraph at lines 162--167
+Overfull \hbox (25.63033pt too wide) in paragraph at lines 184--189
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 []|\T1/Raleway-TLF/m/n/8 Grant from the Pi-rate's
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 180.
+(Font)              scaled to size 5.0pt on input line 202.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 190.
+(Font)              scaled to size 8.0pt on input line 212.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -1255,7 +1258,7 @@ live/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc} <./figures/Top
 .png> <./figures/Identity.png> <./figures/Mail.png> <./figures/Phone.png> <./fi
 gures/Address.png> <./figures/License.png> <./figures/Web.png> <./figures/LinkI
-N.png> <./disney.png> <./medal.jpeg>] (./main.aux)
+N.png> <./Disney.png> <./medal.png>] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
@@ -1268,10 +1271,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28270 strings out of 475723
- 570364 string characters out of 5781849
+ 28332 strings out of 475723
+ 571332 string characters out of 5781849
  1913769 words of memory out of 5000000
- 48484 multiletter control sequences out of 15000+600000
+ 48543 multiletter control sequences out of 15000+600000
  667841 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,14n,135p,437b,920s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1283,9 +1286,9 @@ ay/Raleway-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-
 super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-su
 per/sftt0900.pfb>
-Output written on main.pdf (1 page, 228156 bytes).
+Output written on main.pdf (1 page, 215757 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
