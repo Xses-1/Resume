@@ -15,6 +15,7 @@
 \usepackage{array}
 \usepackage{vcell}
 \usepackage{tabularx}
+\usepackage{makecell}
 %\setlength\extrarowheight{1.5em} % adds some spacing between the lines of the CV's tabulars
 % not used here as not to interfer with other tables
 \usetikzlibrary{decorations.text}
@@ -47,14 +48,14 @@
 \usepackage{titlesec} % Allows creating custom \sections
 
 % Format of the section titles
-\titleformat{\section}{\color{Blue}\Large\raggedright}{}{0em}
+\titleformat{\section}{\color{Blue}\LARGE\raggedright}{}{0em}
 	    {}[\color{spacergrey}\titlerule] 
 % smallcaps, Large, continuous line - looks better if two columns, might look a bit too dramatic if just one ;) 
 \titlespacing{\section}{0pt}{5pt}{5pt} % Spacing around titles {<left spacing>}{<before spacing>}{<after spacing>}
 %----------------------------------------------------
 
  \newcommand{\cvkeyword}[3]{
- \colorbox{#2}{\textcolor{#3}{#1}} \phantom{}%
+ \colorbox{#2}{\textcolor{#3}{#1}}\phantom{}
  }
  
 %------------------------
@@ -121,7 +122,8 @@
 
 
 %------------------------------------ pictoFraction
-\newcommand{\icon}[3]{\phantom{x}{#3\color{#2}#1}\phantom{x}}
+\newcommand{\icon}[3]{\phantom{x}{#3\color{#2}#1}}
+
 %------------------- pictogram Fraction: pictoFraction
 \newcommand{\pictofraction}[6]{
 \pgfmathparse{#3 - 1}\foreach \n in {0,...,\pgfmathresult}{\icon{#1}{#2}{#6}}
