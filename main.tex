@@ -25,7 +25,7 @@
 %-------------------------------------------------------------
 
 % this has to be here so the paracols starts..
-\setlength{\columnsep}{5.6mm}
+\setlength{\columnsep}{10mm}
 \columnratio{0.34}[0.63]
 \begin{paracol}{2}
 \hbadness5000
@@ -216,11 +216,63 @@
 
 \normalsize
 
-\begin{minipage}[t]{\textwidth}
+\begin{minipage}[t]{0.60\textwidth}
 
-
+	\vspace{22px}
 	\section*{Profile}
+	\vspace{2mm}
 	\phantom{aa}\lorem\lorem\lorem\lorem
+
+	\bigskip
+	\bigskip
+
+	\section*{Education}
+	\begin{tabular}{@{}l c @{}r}
+
+		\\[-1mm]
+
+		\makecell[l]{\textbf{Dutch Language Course} \\ \color{Blue} TU Delft} &
+		\hspace{122px}
+		& \vcell{\color{Blue} Sep 2021 - Jun 2022}  \\[-2\rowheight]
+		& & \printcelltop			    \\[2mm]
+
+		\\[2mm]
+
+		\makecell[l]{\textbf{BSc Electrical Engineering} \\ \color{Blue} TU Delft} &
+		& \vcell{\color{Blue} Sep 2022 - Jun 2025}	 \\[-2\rowheight]
+		& & \printcelltop				 \\[2mm]
+
+	\end{tabular}
+
+	\bigskip
+	\bigskip
+
+	\section*{Personal Projects}
+	\begin{tabular}{l @{}l}
+
+		\\[-1mm]
+
+		\icon{\faSquare}{Blue}{}
+		& \hspace{1mm} Custom USB Joystick for Framework Laptop \\[1mm]
+
+		\phantom{x}\tiny\phantom{xx}\faCircle
+		& \hspace{2mm} Turns the device into a handheld \\[1mm]
+		
+		\phantom{x}\tiny\phantom{xx}\faCircle
+		& \hspace{2mm} Utilizes laptop's expansion module dock \\[1mm]
+                
+		\phantom{x}\tiny\phantom{xx}\faCircle
+		& \hspace{2mm} Driverless operation due to custom composite 
+							device USB descripor \\[1mm]
+		
+		\phantom{x}\tiny\phantom{xx}\faCircle
+		& \hspace{2mm} Fully custom-designed and 3D printed enclosure \\[1mm]
+                
+		\phantom{x}\tiny\phantom{xx}\faCircle
+		& \hspace{2mm} Utilizes STM32F042 32bit ARM microcontroller \\
+
+	\end{tabular}
+
 
 
 \end{minipage}
